@@ -13,6 +13,11 @@
 		F16AA5F825F43FFA00348E8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16AA5F725F43FFA00348E8B /* Preview Assets.xcassets */; };
 		F16AA60B25F456B100348E8B /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F16AA60A25F456B100348E8B /* Roboto-Bold.ttf */; };
 		F16AA60E25F4570100348E8B /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F16AA60D25F4570100348E8B /* Roboto-Regular.ttf */; };
+		F16AA61325F45DDD00348E8B /* BasicNecessities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16AA61225F45DDD00348E8B /* BasicNecessities.swift */; };
+		F16AA61625F465BC00348E8B /* Technology.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16AA61525F465BC00348E8B /* Technology.swift */; };
+		F16AA61925F465CE00348E8B /* Documents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16AA61825F465CE00348E8B /* Documents.swift */; };
+		F16AA61C25F465DB00348E8B /* SelfCare.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16AA61B25F465DB00348E8B /* SelfCare.swift */; };
+		F16AA61F25F467CB00348E8B /* FirstAid.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16AA61E25F467CB00348E8B /* FirstAid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		F16AA5F925F43FFA00348E8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = FloodDisasterApp/Info.plist; sourceTree = SOURCE_ROOT; };
 		F16AA60A25F456B100348E8B /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "../../CoHackathon_App/CoHackathon_App/Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		F16AA60D25F4570100348E8B /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		F16AA61225F45DDD00348E8B /* BasicNecessities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicNecessities.swift; sourceTree = "<group>"; };
+		F16AA61525F465BC00348E8B /* Technology.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Technology.swift; sourceTree = "<group>"; };
+		F16AA61825F465CE00348E8B /* Documents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Documents.swift; sourceTree = "<group>"; };
+		F16AA61B25F465DB00348E8B /* SelfCare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfCare.swift; sourceTree = "<group>"; };
+		F16AA61E25F467CB00348E8B /* FirstAid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +89,11 @@
 			children = (
 				F16AA5F025F43FF700348E8B /* FloodDisasterAppApp.swift */,
 				F16AA5F225F43FF700348E8B /* ContentView.swift */,
+				F16AA61225F45DDD00348E8B /* BasicNecessities.swift */,
+				F16AA61525F465BC00348E8B /* Technology.swift */,
+				F16AA61825F465CE00348E8B /* Documents.swift */,
+				F16AA61B25F465DB00348E8B /* SelfCare.swift */,
+				F16AA61E25F467CB00348E8B /* FirstAid.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -155,7 +170,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F16AA5F325F43FF700348E8B /* ContentView.swift in Sources */,
+				F16AA61325F45DDD00348E8B /* BasicNecessities.swift in Sources */,
+				F16AA61925F465CE00348E8B /* Documents.swift in Sources */,
 				F16AA5F125F43FF700348E8B /* FloodDisasterAppApp.swift in Sources */,
+				F16AA61C25F465DB00348E8B /* SelfCare.swift in Sources */,
+				F16AA61625F465BC00348E8B /* Technology.swift in Sources */,
+				F16AA61F25F467CB00348E8B /* FirstAid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
