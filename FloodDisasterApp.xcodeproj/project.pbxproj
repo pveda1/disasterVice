@@ -25,6 +25,7 @@
 		F16AA62F25F48EC000348E8B /* DOs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16AA62E25F48EC000348E8B /* DOs.swift */; };
 		F16AA63225F48EC900348E8B /* DONTs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16AA63125F48EC900348E8B /* DONTs.swift */; };
 		F16AA63625F4910D00348E8B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16AA63525F4910D00348E8B /* MapView.swift */; };
+		F16AA63925F4ABC400348E8B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16AA63825F4ABC400348E8B /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		F16AA62E25F48EC000348E8B /* DOs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOs.swift; sourceTree = "<group>"; };
 		F16AA63125F48EC900348E8B /* DONTs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DONTs.swift; sourceTree = "<group>"; };
 		F16AA63525F4910D00348E8B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		F16AA63825F4ABC400348E8B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				F16AA62A25F4873800348E8B /* Main.swift */,
+				F16AA63825F4ABC400348E8B /* HomeView.swift */,
 				F16AA5F025F43FF700348E8B /* FloodDisasterAppApp.swift */,
 				F16AA5F225F43FF700348E8B /* Checklist.swift */,
 				F16AA61225F45DDD00348E8B /* BasicNecessities.swift */,
@@ -193,6 +196,7 @@
 				F16AA63225F48EC900348E8B /* DONTs.swift in Sources */,
 				F16AA5F325F43FF700348E8B /* Checklist.swift in Sources */,
 				F16AA62825F4872F00348E8B /* Game.swift in Sources */,
+				F16AA63925F4ABC400348E8B /* HomeView.swift in Sources */,
 				F16AA62B25F4873800348E8B /* Main.swift in Sources */,
 				F16AA61325F45DDD00348E8B /* BasicNecessities.swift in Sources */,
 				F16AA62525F4872200348E8B /* AfterDisaster.swift in Sources */,
