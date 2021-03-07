@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct Checklist: View {
     var body: some View {
         NavigationView {
             VStack(alignment: .leading) {
@@ -282,15 +282,16 @@ struct ContentView: View {
                 .padding()
                 
                 Spacer()
-                    .frame(height: 300)
+                    .frame(height: 360)
                 
+                /**
                 ZStack {
                     Rectangle()
                         .fill(Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)))
                         .frame(height: 80)
                         .shadow(color: Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 0.25)), radius:20, x:0, y:4)
                     
-                    HStack {
+                   HStack {
                         Image("List")
                         Spacer()
                         Image("Alert")
@@ -300,8 +301,10 @@ struct ContentView: View {
                         Image("Pencil")
                     }
                     .padding(.all, 30)
+
                     
                 }
+                 */
             }
             .background(Color(#colorLiteral(red: 0.9450980424880981, green: 0.9529411792755127, blue: 0.9450980424880981, alpha: 1)))
             .edgesIgnoringSafeArea(.all)
@@ -312,6 +315,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Checklist()
     }
 }
