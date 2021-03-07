@@ -56,8 +56,6 @@ struct DOs: View {
                     }
                     .frame(width: 370, height: 400)
                     
-                    
-                    
                 }
             }
             
