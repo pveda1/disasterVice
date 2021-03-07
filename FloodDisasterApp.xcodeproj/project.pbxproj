@@ -11,6 +11,8 @@
 		F16AA5F325F43FF700348E8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16AA5F225F43FF700348E8B /* ContentView.swift */; };
 		F16AA5F525F43FFA00348E8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16AA5F425F43FFA00348E8B /* Assets.xcassets */; };
 		F16AA5F825F43FFA00348E8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16AA5F725F43FFA00348E8B /* Preview Assets.xcassets */; };
+		F16AA60B25F456B100348E8B /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F16AA60A25F456B100348E8B /* Roboto-Bold.ttf */; };
+		F16AA60E25F4570100348E8B /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F16AA60D25F4570100348E8B /* Roboto-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		F16AA5F425F43FFA00348E8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F16AA5F725F43FFA00348E8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F16AA5F925F43FFA00348E8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = FloodDisasterApp/Info.plist; sourceTree = SOURCE_ROOT; };
+		F16AA60A25F456B100348E8B /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "../../CoHackathon_App/CoHackathon_App/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		F16AA60D25F4570100348E8B /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,10 +56,11 @@
 		F16AA5EF25F43FF700348E8B /* FloodDisasterApp */ = {
 			isa = PBXGroup;
 			children = (
-				F16AA5F025F43FF700348E8B /* FloodDisasterAppApp.swift */,
-				F16AA5F225F43FF700348E8B /* ContentView.swift */,
+				F16AA61025F45A6F00348E8B /* Views */,
 				F16AA5F425F43FFA00348E8B /* Assets.xcassets */,
 				F16AA5F925F43FFA00348E8B /* Info.plist */,
+				F16AA60D25F4570100348E8B /* Roboto-Regular.ttf */,
+				F16AA60A25F456B100348E8B /* Roboto-Bold.ttf */,
 				F16AA5F625F43FFA00348E8B /* Preview Content */,
 			);
 			path = FloodDisasterApp;
@@ -67,6 +72,15 @@
 				F16AA5F725F43FFA00348E8B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F16AA61025F45A6F00348E8B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F16AA5F025F43FF700348E8B /* FloodDisasterAppApp.swift */,
+				F16AA5F225F43FF700348E8B /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +142,8 @@
 			files = (
 				F16AA5F825F43FFA00348E8B /* Preview Assets.xcassets in Resources */,
 				F16AA5F525F43FFA00348E8B /* Assets.xcassets in Resources */,
+				F16AA60E25F4570100348E8B /* Roboto-Regular.ttf in Resources */,
+				F16AA60B25F456B100348E8B /* Roboto-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
