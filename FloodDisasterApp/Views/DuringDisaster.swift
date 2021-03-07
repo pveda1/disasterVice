@@ -12,7 +12,7 @@ struct DuringDisaster: View {
         VStack(alignment: .leading){
             Spacer()
             
-            Text("After the Disaster... ")
+            Text("During the Disaster... ")
                 .font(Font.custom("Roboto-Bold", size: 36))
                 .padding(.leading, 30)
             

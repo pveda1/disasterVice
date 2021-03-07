@@ -9,7 +9,14 @@ import SwiftUI
 
 struct Game: View {
     var body: some View {
-        Text("Game")
+        VStack {
+            Text("Game!")
+                .font(Font.custom("Roboto-Bold", size: 36))
+                .padding()
+            Text("Quiz goes here. ")
+                .font(.headline)
+        }
+        
     }
 }
 

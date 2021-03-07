@@ -14,7 +14,7 @@ struct Technology: View {
                 .font(Font.custom("Roboto-Bold", size: 36))
                 .padding()
             
-            Text("Some description")
+            Text("Some description. ")
                 .font(.headline)
         }
     }
