@@ -11,12 +11,9 @@
 		F16AA5F325F43FF700348E8B /* Checklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16AA5F225F43FF700348E8B /* Checklist.swift */; };
 		F16AA5F525F43FFA00348E8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16AA5F425F43FFA00348E8B /* Assets.xcassets */; };
 		F16AA5F825F43FFA00348E8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16AA5F725F43FFA00348E8B /* Preview Assets.xcassets */; };
-		F16AA60B25F456B100348E8B /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F16AA60A25F456B100348E8B /* Roboto-Bold.ttf */; };
 		F16AA60E25F4570100348E8B /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F16AA60D25F4570100348E8B /* Roboto-Regular.ttf */; };
 		F16AA61325F45DDD00348E8B /* BasicNecessities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16AA61225F45DDD00348E8B /* BasicNecessities.swift */; };
 		F16AA61625F465BC00348E8B /* Technology.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16AA61525F465BC00348E8B /* Technology.swift */; };
-		F16AA61925F465CE00348E8B /* Documents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16AA61825F465CE00348E8B /* Documents.swift */; };
-		F16AA61C25F465DB00348E8B /* SelfCare.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16AA61B25F465DB00348E8B /* SelfCare.swift */; };
 		F16AA61F25F467CB00348E8B /* FirstAid.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16AA61E25F467CB00348E8B /* FirstAid.swift */; };
 		F16AA62225F4871200348E8B /* DuringDisaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16AA62125F4871200348E8B /* DuringDisaster.swift */; };
 		F16AA62525F4872200348E8B /* AfterDisaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16AA62425F4872200348E8B /* AfterDisaster.swift */; };
@@ -25,7 +22,7 @@
 		F16AA62F25F48EC000348E8B /* DOs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16AA62E25F48EC000348E8B /* DOs.swift */; };
 		F16AA63225F48EC900348E8B /* DONTs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16AA63125F48EC900348E8B /* DONTs.swift */; };
 		F16AA63625F4910D00348E8B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16AA63525F4910D00348E8B /* MapView.swift */; };
-		F16AA63925F4ABC400348E8B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16AA63825F4ABC400348E8B /* HomeView.swift */; };
+		F1C6CEB6272B4685000595B6 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1C6CEB5272B4685000595B6 /* Roboto-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,12 +32,9 @@
 		F16AA5F425F43FFA00348E8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F16AA5F725F43FFA00348E8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F16AA5F925F43FFA00348E8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = FloodDisasterApp/Info.plist; sourceTree = SOURCE_ROOT; };
-		F16AA60A25F456B100348E8B /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "../../CoHackathon_App/CoHackathon_App/Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		F16AA60D25F4570100348E8B /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		F16AA61225F45DDD00348E8B /* BasicNecessities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicNecessities.swift; sourceTree = "<group>"; };
 		F16AA61525F465BC00348E8B /* Technology.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Technology.swift; sourceTree = "<group>"; };
-		F16AA61825F465CE00348E8B /* Documents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Documents.swift; sourceTree = "<group>"; };
-		F16AA61B25F465DB00348E8B /* SelfCare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfCare.swift; sourceTree = "<group>"; };
 		F16AA61E25F467CB00348E8B /* FirstAid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAid.swift; sourceTree = "<group>"; };
 		F16AA62125F4871200348E8B /* DuringDisaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuringDisaster.swift; sourceTree = "<group>"; };
 		F16AA62425F4872200348E8B /* AfterDisaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfterDisaster.swift; sourceTree = "<group>"; };
@@ -49,7 +43,7 @@
 		F16AA62E25F48EC000348E8B /* DOs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOs.swift; sourceTree = "<group>"; };
 		F16AA63125F48EC900348E8B /* DONTs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DONTs.swift; sourceTree = "<group>"; };
 		F16AA63525F4910D00348E8B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		F16AA63825F4ABC400348E8B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F1C6CEB5272B4685000595B6 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "../../Fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +80,7 @@
 				F16AA5F425F43FFA00348E8B /* Assets.xcassets */,
 				F16AA5F925F43FFA00348E8B /* Info.plist */,
 				F16AA60D25F4570100348E8B /* Roboto-Regular.ttf */,
-				F16AA60A25F456B100348E8B /* Roboto-Bold.ttf */,
+				F1C6CEB5272B4685000595B6 /* Roboto-Bold.ttf */,
 				F16AA5F625F43FFA00348E8B /* Preview Content */,
 			);
 			path = FloodDisasterApp;
@@ -104,13 +98,10 @@
 			isa = PBXGroup;
 			children = (
 				F16AA62A25F4873800348E8B /* Main.swift */,
-				F16AA63825F4ABC400348E8B /* HomeView.swift */,
 				F16AA5F025F43FF700348E8B /* FloodDisasterAppApp.swift */,
 				F16AA5F225F43FF700348E8B /* Checklist.swift */,
 				F16AA61225F45DDD00348E8B /* BasicNecessities.swift */,
 				F16AA61525F465BC00348E8B /* Technology.swift */,
-				F16AA61825F465CE00348E8B /* Documents.swift */,
-				F16AA61B25F465DB00348E8B /* SelfCare.swift */,
 				F16AA61E25F467CB00348E8B /* FirstAid.swift */,
 				F16AA62125F4871200348E8B /* DuringDisaster.swift */,
 				F16AA62425F4872200348E8B /* AfterDisaster.swift */,
@@ -181,8 +172,8 @@
 			files = (
 				F16AA5F825F43FFA00348E8B /* Preview Assets.xcassets in Resources */,
 				F16AA5F525F43FFA00348E8B /* Assets.xcassets in Resources */,
+				F1C6CEB6272B4685000595B6 /* Roboto-Bold.ttf in Resources */,
 				F16AA60E25F4570100348E8B /* Roboto-Regular.ttf in Resources */,
-				F16AA60B25F456B100348E8B /* Roboto-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,15 +187,12 @@
 				F16AA63225F48EC900348E8B /* DONTs.swift in Sources */,
 				F16AA5F325F43FF700348E8B /* Checklist.swift in Sources */,
 				F16AA62825F4872F00348E8B /* Game.swift in Sources */,
-				F16AA63925F4ABC400348E8B /* HomeView.swift in Sources */,
 				F16AA62B25F4873800348E8B /* Main.swift in Sources */,
 				F16AA61325F45DDD00348E8B /* BasicNecessities.swift in Sources */,
 				F16AA62525F4872200348E8B /* AfterDisaster.swift in Sources */,
-				F16AA61925F465CE00348E8B /* Documents.swift in Sources */,
 				F16AA63625F4910D00348E8B /* MapView.swift in Sources */,
 				F16AA62F25F48EC000348E8B /* DOs.swift in Sources */,
 				F16AA5F125F43FF700348E8B /* FloodDisasterAppApp.swift in Sources */,
-				F16AA61C25F465DB00348E8B /* SelfCare.swift in Sources */,
 				F16AA61625F465BC00348E8B /* Technology.swift in Sources */,
 				F16AA61F25F467CB00348E8B /* FirstAid.swift in Sources */,
 				F16AA62225F4871200348E8B /* DuringDisaster.swift in Sources */,
