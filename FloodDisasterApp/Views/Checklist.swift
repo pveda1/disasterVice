@@ -13,14 +13,14 @@ struct Checklist: View {
         NavigationView {
             VStack(alignment: .leading) {
                Spacer()
-                    .frame(height: 100)
+                    .frame(height: 120)
                 
                 Text("Checklist... ")
                     .font(Font.custom("Roboto-Bold", size: 36))
                     .padding(.leading, 30)
                 
                 Spacer()
-                    .frame(height: 200)
+                    .frame(height: 215)
                 
                 VStack(alignment: .center) {
                     HStack(alignment: .center) {
@@ -170,13 +170,12 @@ struct Checklist: View {
                         .cornerRadius(12)
                         
                         Image("man")
-                            //.resizable()
                             .frame(height: 60)
                             .aspectRatio(contentMode: .fill)
                             .offset(x: -60)
                         
                     }
-                    .shadow(radius: 7)
+                    .shadow(radius: 5)
                     .padding()
                     
                 }
@@ -185,12 +184,25 @@ struct Checklist: View {
                 .padding()
                 
                 Spacer()
-                    .frame(height: 360)
+                    .frame(height: 275)
+                
+                Rectangle()
+                    .fill(Color.white)
+                    .frame(width: 425, height: 100)
+                    .shadow(radius: 5)
+                    .edgesIgnoringSafeArea(.all)
 
             }
             .background(Color(#colorLiteral(red: 0.9450980424880981, green: 0.9529411792755127, blue: 0.9450980424880981, alpha: 1)))
             .edgesIgnoringSafeArea(.all)
+
+           
+
         }
+        .background(Color(#colorLiteral(red: 0.9450980424880981, green: 0.9529411792755127, blue: 0.9450980424880981, alpha: 1)))
+        .edgesIgnoringSafeArea(.all)
+
+       
     }
     
 }

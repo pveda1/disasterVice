@@ -10,16 +10,17 @@ import SwiftUI
 struct AfterDisaster: View {
     var body: some View {
         NavigationView {
-            VStack(alignment: .leading){
+            VStack(alignment: .leading) {
                 
                 Spacer()
+                    .frame(height: 160)
                 
                 Text("After the Disaster... ")
                     .font(Font.custom("Roboto-Bold", size: 36))
                     .padding(.leading, 20)
                 
                 Spacer()
-                    .frame(height: 40)
+                    .frame(height: 30)
                 
                 HStack {
                     NavigationLink(destination: DOs()) {
@@ -28,13 +29,11 @@ struct AfterDisaster: View {
                                 .font(.headline)
                                 .fontWeight(.regular)
                                 .foregroundColor(Color.black)
-                                //.frame(height: 25.0)
                             
                             Text("What is it safe to do after?")
                                 .underline()
                                 .font(.subheadline)
                                 .foregroundColor(Color.gray)
-                                //.padding(.bottom, 5)
                         }
                         .frame(width: 160, height: 100)
                     }
@@ -98,12 +97,25 @@ struct AfterDisaster: View {
                     .cornerRadius(12)
                     .offset(y: -280)
                     
-                }
+                    }
+                Spacer()
                 
-            }
-            .background(Color(#colorLiteral(red: 0.9450980424880981, green: 0.9529411792755127, blue: 0.9450980424880981, alpha: 1)))
-            .edgesIgnoringSafeArea(.all)
+                Rectangle()
+                    .fill(Color.white)
+                    .frame(width: 425, height: 100)
+                    .shadow(radius: 5)
+                    .edgesIgnoringSafeArea(.all)
+                    .offset(y: -100);
+                }
+                .offset(x: 5)
+                .background(Color(#colorLiteral(red: 0.9450980424880981, green: 0.9529411792755127, blue: 0.9450980424880981, alpha: 1)))
+                .edgesIgnoringSafeArea(.all)
+                
+
+
         }
+        .background(Color(#colorLiteral(red: 0.9450980424880981, green: 0.9529411792755127, blue: 0.9450980424880981, alpha: 1)))
+        .edgesIgnoringSafeArea(.all)
         
         
     }

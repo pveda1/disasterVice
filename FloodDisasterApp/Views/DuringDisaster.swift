@@ -7,17 +7,29 @@
 
 import SwiftUI
 
+struct DisasterButton: ButtonStyle {
+    func makeBody(configuration: Self.Configuration) -> some View {
+        configuration.label
+          .font(Font.custom("Roboto-Bold", size: 10))
+          .foregroundColor(Color.black)
+          .frame(width: 60, height: 20)
+          .background(Color(#colorLiteral(red: 0.3294117748737335, green: 0.8078431487083435, blue: 0.5333333611488342, alpha: 0.6000000238418579)))
+          .opacity(configuration.isPressed ? 0.2 : 1)
+          .cornerRadius(12)
+      }
+}
+
 struct DuringDisaster: View {
     var duringItems: Array<String> = ["If you are outdoors, stay outdoors and away from buildings.", "Protect your head and neck with your hands.", "Make sure your emergency kit is accessible in case you are trapped.", "If you are in the car, stop the car and stay inside."]
     
     var body: some View {
-        ZStack(alignment: .leading){
+        ZStack(alignment: .leading) {
             
             Image("Vector")
 
             VStack(alignment: .leading){
                 Spacer()
-                
+                    .frame(height: 165)
                 Text("During the Disaster... ")
                     .font(Font.custom("Roboto-Bold", size: 36))
                     .padding(.leading, 30)
@@ -25,7 +37,7 @@ struct DuringDisaster: View {
                 Spacer()
                     .frame(height: 30)
                 
-                VStack(alignment: .center){
+                VStack(alignment: .center) {
                     
                     ForEach(duringItems, id: \.self) { item in
                         VStack(alignment: .center) {
@@ -43,23 +55,16 @@ struct DuringDisaster: View {
                             }
 
                             HStack(spacing: 20){
-                                Button("YES") {
-                                    
+                                Button(action: {}) {
+                                    Text("YES")
                                 }
-                                .font(Font.custom("Roboto-Bold", size: 10))
-                                .foregroundColor(Color.black)
-                                .frame(width: 60, height: 20)
-                                .background(Color(#colorLiteral(red: 0.3294117748737335, green: 0.8078431487083435, blue: 0.5333333611488342, alpha: 0.6000000238418579)))
-                                .cornerRadius(12)
+                                .buttonStyle(DisasterButton())
                                 
-                                Button("NO") {
-                                    
+                                Button(action: {}) {
+                                    Text("NO")
                                 }
-                                .font(Font.custom("Roboto-Bold", size: 10))
-                                .foregroundColor(Color.black)
-                                .frame(width: 60, height: 20)
-                                .background(Color(#colorLiteral(red: 0.3294117748737335, green: 0.8078431487083435, blue: 0.5333333611488342, alpha: 0.6000000238418579)))
-                                .cornerRadius(12)
+                                .buttonStyle(DisasterButton())
+                                
                             }
                             
                             
@@ -75,13 +80,23 @@ struct DuringDisaster: View {
                     }
                     
                 }
-                
                 Spacer()
-            }
+                    .frame(height: 110)
+                
+                Rectangle()
+                    .fill(Color.white)
+                    .frame(width: 425, height: 100)
+                    .shadow(radius: 5)
+                    .edgesIgnoringSafeArea(.all)
 
+            }
+            
         }
-        .background(Color(#colorLiteral(red: 0.9450980424880981, green: 0.9529411792755127, blue: 0.9450980424880981, alpha: 1)))
         .edgesIgnoringSafeArea(.all)
+        .background(Color(#colorLiteral(red: 0.9450980424880981, green: 0.9529411792755127, blue: 0.9450980424880981, alpha: 1)))
+        .frame(height: 900)
+
+        
     }
 }
 

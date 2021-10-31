@@ -13,8 +13,6 @@
 		F16AA5F825F43FFA00348E8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16AA5F725F43FFA00348E8B /* Preview Assets.xcassets */; };
 		F16AA60E25F4570100348E8B /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F16AA60D25F4570100348E8B /* Roboto-Regular.ttf */; };
 		F16AA61325F45DDD00348E8B /* BasicNecessities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16AA61225F45DDD00348E8B /* BasicNecessities.swift */; };
-		F16AA61625F465BC00348E8B /* Technology.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16AA61525F465BC00348E8B /* Technology.swift */; };
-		F16AA61F25F467CB00348E8B /* FirstAid.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16AA61E25F467CB00348E8B /* FirstAid.swift */; };
 		F16AA62225F4871200348E8B /* DuringDisaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16AA62125F4871200348E8B /* DuringDisaster.swift */; };
 		F16AA62525F4872200348E8B /* AfterDisaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16AA62425F4872200348E8B /* AfterDisaster.swift */; };
 		F16AA62825F4872F00348E8B /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16AA62725F4872F00348E8B /* Game.swift */; };
@@ -34,8 +32,6 @@
 		F16AA5F925F43FFA00348E8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = FloodDisasterApp/Info.plist; sourceTree = SOURCE_ROOT; };
 		F16AA60D25F4570100348E8B /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		F16AA61225F45DDD00348E8B /* BasicNecessities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicNecessities.swift; sourceTree = "<group>"; };
-		F16AA61525F465BC00348E8B /* Technology.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Technology.swift; sourceTree = "<group>"; };
-		F16AA61E25F467CB00348E8B /* FirstAid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAid.swift; sourceTree = "<group>"; };
 		F16AA62125F4871200348E8B /* DuringDisaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuringDisaster.swift; sourceTree = "<group>"; };
 		F16AA62425F4872200348E8B /* AfterDisaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfterDisaster.swift; sourceTree = "<group>"; };
 		F16AA62725F4872F00348E8B /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
@@ -101,8 +97,6 @@
 				F16AA5F025F43FF700348E8B /* FloodDisasterAppApp.swift */,
 				F16AA5F225F43FF700348E8B /* Checklist.swift */,
 				F16AA61225F45DDD00348E8B /* BasicNecessities.swift */,
-				F16AA61525F465BC00348E8B /* Technology.swift */,
-				F16AA61E25F467CB00348E8B /* FirstAid.swift */,
 				F16AA62125F4871200348E8B /* DuringDisaster.swift */,
 				F16AA62425F4872200348E8B /* AfterDisaster.swift */,
 				F16AA62E25F48EC000348E8B /* DOs.swift */,
@@ -193,8 +187,6 @@
 				F16AA63625F4910D00348E8B /* MapView.swift in Sources */,
 				F16AA62F25F48EC000348E8B /* DOs.swift in Sources */,
 				F16AA5F125F43FF700348E8B /* FloodDisasterAppApp.swift in Sources */,
-				F16AA61625F465BC00348E8B /* Technology.swift in Sources */,
-				F16AA61F25F467CB00348E8B /* FirstAid.swift in Sources */,
 				F16AA62225F4871200348E8B /* DuringDisaster.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,10 +8,9 @@
 import SwiftUI
 
 struct ChecklistSubItems: View {
-    var title: String// = "Checklist"
+    var title: String
     var items: Array<String>
-//    var items: Array<String> = ["Water (at least a 3-day supply; one gallon per person per day)", "Food (at least a 3-day supply of nonperishable, easy-to-prepare food)", "Extra cash", "Extra set of car keys and house keys"]
-    var image: String //= "salad"
+    var image: String
     
     var body: some View {
         ZStack(alignment: .leading) {
