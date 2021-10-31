@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct DONTs: View {
+    var dontItems: Array<String> = ["Don’t use matches or candles as there could be broken gas lines.", "Don’t go near beaches as tsunami’s could hit after the ground stops shaking.", "Don’t use water that could be contaminated to wash dishes, brush teeth, prepare food, wash hands, make ice or make baby formula"]
     var body: some View {
         VStack {
             
@@ -42,13 +43,13 @@ struct DONTs: View {
                             .frame(height: 30)
                         
                         VStack(alignment: .leading) {
-                            Text("Step in puddles or standing water if power lines are down outside your home.")
-                            Text("Keep items that have come in contact with water, including canned goods, water bottles, plastic utensils. THROW IT OUT.")
-                            Text("Use water that could be contaminated to wash dishes, brush teeth, prepare food, wash hands, or make ice.")
-                               
+                            ForEach(dontItems, id: \.self) { item in
+                                Text(item)
+                            }
                         }
                         .padding()
-                        .frame(width: 370, height: 200)
+                        .frame(width: 370)
+                        .font(Font.custom("Roboto-Bold", size: 18))
                         .foregroundColor(Color.gray)
                         
                     }

@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct DOs: View {
+    var doItems: Array<String> = ["Make sure you and those around you are safe and not injured.", "Leave immediately and call the fire department if you smell natural or propane gas or hear a hissing noise.", "Make sure your food and water are safe.", "Stay away from damaged areas."]
     var body: some View {
         VStack {
             
@@ -42,13 +43,13 @@ struct DOs: View {
                             .frame(height: 30)
                         
                         VStack(alignment: .leading) {
-                            Text("Return home only when officials have declared the area safe.")
-                            Text("Leave immediately and call the fire department if you smell natural or propane gas or hear a hissing noise.")
-                            Text("Make sure your food and water are safe.")
-                            Text("Document your damage")
+                            ForEach(doItems, id: \.self) { item in
+                                Text(item)
+                            }
                         }
                         .padding()
                         .frame(width: 370)
+                        .font(Font.custom("Roboto-Bold", size: 18))
                         .foregroundColor(Color.gray)
                         
                         Spacer()

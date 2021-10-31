@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct AfterDisaster: View {
+    @State private var location: String = ""
     var body: some View {
         NavigationView {
             VStack(alignment: .leading) {
@@ -86,7 +87,7 @@ struct AfterDisaster: View {
                             .aspectRatio(contentMode: .fit)
                             .padding(.all, 10)
                         
-                        Text("YOUR LOCATION")
+                        TextField("YOUR LOCATION", text: $location)
                             .font(.subheadline)
                             .foregroundColor(Color.gray)
                         
